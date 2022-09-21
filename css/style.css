@@ -10,7 +10,7 @@ html {
 }
 
 body {
-    font-size: 1.6rem;
+    font-size: 1.3rem;
 }
 
 .header {
@@ -21,4 +21,24 @@ body {
 .nav {
     display: flex;
     justify-content: flex-end;
+    height: inherit;
+}
+
+.nav-right-section {
+    width: 25rem;
+    height: auto;
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-right-section a {
+    margin-right: 1rem;
+    color:#000000;
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
 }
