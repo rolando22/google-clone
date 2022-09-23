@@ -62,3 +62,19 @@ a {
 .menu-photo div {
     text-align: center;
 }
+
+main {
+    margin-top: 9rem;
+    text-align: center;
+}
+
+main .main-logo {
+    width: 53rem;
+    margin: 0 auto;
+    margin-bottom: 3.5rem;
+}
+
+main .main-logo img {
+    width: 27.2rem;
+    height: 9.2rem;
+}
