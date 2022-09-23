@@ -42,3 +42,23 @@ a {
     text-decoration: none;
     cursor: pointer;
 }
+
+.menu-icon img {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 2.5rem;
+    height: 2.5rem;
+}
+
+.menu-photo {
+    border-radius: 50%;
+    background-color: red;
+    width: 3.5rem;
+    height: 3.5rem;
+    margin-left: 1rem;
+}
+
+.menu-photo div {
+    text-align: center;
+}
