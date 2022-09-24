@@ -78,3 +78,25 @@ main .main-logo img {
     width: 27.2rem;
     height: 9.2rem;
 }
+
+main .main-input {
+    width: 53rem;
+    margin: 0 auto;
+    margin-bottom: 3.5rem;
+}
+
+main .main-input .main-input-container {
+    width: 52.5rem;
+    border-radius: 10rem;
+    border: 0.1rem solid #dfe1e5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main .main-input .main-input-container input {
+    width: 48.3rem;
+    height: 3.4rem;
+    border: none;
+    outline: none;
+}
