@@ -80,13 +80,15 @@ main .main-logo img {
 }
 
 main .main-input {
-    width: 53rem;
+    width: 58.4rem;
+    height: 4.6rem;
     margin: 0 auto;
     margin-bottom: 3.5rem;
 }
 
 main .main-input .main-input-container {
-    width: 52.5rem;
+    width: 58.2rem;
+    height: 4.4rem;
     border-radius: 10rem;
     border: 0.1rem solid #dfe1e5;
     display: flex;
@@ -96,7 +98,32 @@ main .main-input .main-input-container {
 
 main .main-input .main-input-container input {
     width: 48.3rem;
-    height: 3.4rem;
+    height: 3.9rem;
     border: none;
     outline: none;
+}
+
+main .main-input .main-input-container:hover {
+    box-shadow: 0 1px 6px 0 #20212447;
+    border-color: #dfe1e500;
+}
+
+main .main-input .main-input-container .search-icon,
+main .main-input .main-input-container .micro-icon {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+main .main-input .main-input-container .search-icon {
+    width: 1.8rem;
+    height: 1.8rem;
+    margin-right: 1rem;
+    opacity: 0.45;
+}
+
+main .main-input .main-input-container .micro-icon {
+    width: 1.3rem;
+    height: 1.8rem;
+    cursor: pointer;
 }
